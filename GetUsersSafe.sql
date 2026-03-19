@@ -14,6 +14,7 @@ BEGIN
     BEGIN TRY
         --SELECT top 1 * FROM Users  ;
         Select * from users;
+        print 'shreyas'
     END TRY
     BEGIN CATCH
         PRINT ERROR_MESSAGE();
